@@ -137,3 +137,43 @@ nav.nav-bar {
 }
 /* banner section ends */
 /* header section ends */
+
+/* feature section starts */
+.feature-section {
+  margin-top: 85px;
+}
+
+.features {
+  max-width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 6.8fr 5.2fr;
+  gap: 73px;
+}
+
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature-info {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+}
+
+.fw-md {
+  font-weight: 500;
+  color: #727272;
+}
+
+.cl-black {
+  color: #131313;
+}
+
+.cl-orange {
+  color: #ff900e;
+}
+/* feature section ends */
