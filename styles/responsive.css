@@ -1,4 +1,4 @@
-/* common style for small and medium screens */
+/* common style for small and medium screens starts */
 @media screen and (max-width: 991px) {
   /* navigation section */
   .navigation {
@@ -51,27 +51,95 @@
   .banner-image {
     margin-top: 0;
   }
+
+  .features {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* favorite features section */
+  .favorite-features {
+    grid-template-columns: 1fr;
+    max-width: 850px;
+    margin: 0 auto;
+  }
 }
+/* common style for small and medium screens ends */
 
 /* extra small screen */
 @media screen and (max-width: 575px) {
+  section.mg-top {
+    margin-top: 40px;
+  }
+
   h1 {
     font-size: 3rem;
     line-height: 3.7rem;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  .feature-title {
+    font-size: 2.6rem;
   }
 
   .logo {
     font-size: 2.6rem;
     text-align: center;
   }
+
+  /* features section */
+  .feature-images {
+    grid-template-columns: 1fr;
+  }
+
+  /* favorite features section */
+  .favorite-features-image img {
+    height: auto;
+  }
+
+  .experience {
+    width: 180px;
+    height: 100px;
+  }
+
+  .year {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  .tx-light {
+    font-size: 1rem;
+  }
 }
 
 /* small screen */
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  section.mg-top {
+    margin-top: 50px;
+  }
+
+  .experience {
+    width: 220px;
+    height: 100px;
+  }
+
+  .year {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  .tx-light {
+    font-size: 1rem;
+  }
 }
 
 /* medium screen */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  section.mg-top {
+    margin-top: 80px;
+  }
 }
 
 /* ==================================================================== 
@@ -80,6 +148,16 @@
 
 /* large screen */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  section.mg-top {
+    margin-top: 100px;
+  }
+
+  /* favorite features section */
+  .favorite-features {
+    grid-template-columns: 1fr;
+    max-width: 950px;
+    margin: 0 auto;
+  }
 }
 
 /* extra large screen */

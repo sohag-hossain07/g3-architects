@@ -15,7 +15,7 @@ html {
 
 body {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6rem;
@@ -57,6 +57,7 @@ p {
   line-height: 1.6rem;
   font-weight: 400;
   margin: 12px 0;
+  color: #727272;
 }
 
 ul li {
@@ -73,10 +74,11 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
 
 .button {
-  padding: 1.2rem 2.9rem;
+  padding: 1rem 2.5rem;
   border: 2px solid #ff900e;
   border-radius: 5px;
   background-color: #ff900e;
@@ -177,3 +179,66 @@ nav.nav-bar {
   color: #ff900e;
 }
 /* feature section ends */
+/* favorite features section starts */
+.favorite-features {
+  display: grid;
+  grid-template-columns: 5.35fr 6.65fr;
+  gap: 54px;
+}
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.b-left {
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
+}
+
+.favorite-item-section {
+  display: grid;
+  gap: 20px;
+}
+
+.favorite-item-box {
+  padding: 15px;
+  box-shadow: 5px 5px 30px #1313130d, -4px -4px 5px #fbfbfb;
+}
+
+.favorite-features-image {
+  position: relative;
+}
+
+.favorite-features-image img {
+  width: 89%;
+  height: 750px;
+  margin-left: auto;
+}
+
+.experience {
+  width: 250px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff900e;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4rem;
+  border-radius: 5px;
+}
+
+.year {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.tx-light {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* favorite features section ends */
