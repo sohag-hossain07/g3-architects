@@ -70,7 +70,7 @@
 /* extra small screen */
 @media screen and (max-width: 575px) {
   section.mg-top {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   h1 {
@@ -113,12 +113,30 @@
   .tx-light {
     font-size: 1rem;
   }
+
+  /* some fact section */
+  .fact-boxes {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* sponsor section */
+  .sponsor-companies {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin-top: 70px;
+  }
+
+  /* footer section */
+  footer {
+    margin-top: 70px;
+  }
 }
 
 /* small screen */
 @media screen and (min-width: 576px) and (max-width: 767px) {
   section.mg-top {
-    margin-top: 50px;
+    margin-top: 75px;
   }
 
   .experience {
@@ -133,12 +151,61 @@
   .tx-light {
     font-size: 1rem;
   }
+
+  /* some fact section */
+  .fact-boxes {
+    max-width: 522px;
+    margin: 100px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  /* sponsor section */
+  .sponsor-companies {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 70px;
+  }
+
+  /* footer section */
+  footer {
+    margin-top: 75px;
+  }
 }
 
 /* medium screen */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   section.mg-top {
-    margin-top: 80px;
+    margin-top: 90px;
+  }
+
+  /* some fact section */
+  .some-facts > .section-header {
+    text-align: center;
+    margin: 0 auto 50px;
+  }
+
+  .fact-boxes {
+    max-width: 738px;
+    margin: 100px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+
+  .single-fact-box {
+    width: 350px;
+  }
+
+  /* sponsor section */
+  .sponsor-companies {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 70px;
+  }
+
+  /* footer section */
+  footer {
+    margin-top: 90px;
   }
 }
 
@@ -154,6 +221,18 @@
 
   .features {
     gap: 60px;
+  }
+
+  /* some facts section */
+  .fact-boxes {
+    max-width: 960px;
+    margin: 100px auto 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .single-fact-box {
+    width: 300px;
   }
 
   /* favorite features section */

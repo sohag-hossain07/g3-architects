@@ -258,9 +258,9 @@ nav.nav-bar {
 .fact-boxes {
   max-width: 1340px;
   margin: 100px auto 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
   /* grid-template-columns: repeat(4, 1fr); */
 }
 
