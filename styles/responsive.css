@@ -64,6 +64,13 @@
     max-width: 850px;
     margin: 0 auto;
   }
+
+  /* contact section */
+  .contact-section {
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 /* common style for small and medium screens ends */
 
@@ -89,6 +96,10 @@
   .logo {
     font-size: 2.6rem;
     text-align: center;
+  }
+
+  li.list-item {
+    padding: 10px 0;
   }
 
   /* features section */
@@ -125,6 +136,23 @@
     grid-template-columns: 1fr;
     gap: 50px;
     margin-top: 70px;
+  }
+
+  /* contact section */
+  .contact-title {
+    font-size: 45px;
+    line-height: 56px;
+  }
+
+  .mail-and-phone {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .name-and-email {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
   }
 
   /* footer section */
@@ -165,6 +193,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     margin-top: 70px;
+  }
+
+  /* contact section */
+  .contact-title {
+    font-size: 55px;
+    line-height: 68px;
   }
 
   /* footer section */
@@ -240,6 +274,12 @@
     grid-template-columns: 1fr;
     max-width: 950px;
     margin: 0 auto;
+  }
+
+  /* contact section */
+  .contact-title {
+    font-size: 55px;
+    line-height: 68px;
   }
 }
 
