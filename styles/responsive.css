@@ -113,16 +113,17 @@
   }
 
   .experience {
-    width: 180px;
-    height: 100px;
+    width: 150px;
+    height: 90px;
+    padding: 2rem;
   }
 
   .year {
-    font-size: 2rem;
-    margin-bottom: 5px;
+    font-size: 1.6rem;
+    margin-bottom: 0;
   }
   .tx-light {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   /* some fact section */
@@ -281,12 +282,4 @@
     font-size: 55px;
     line-height: 68px;
   }
-}
-
-/* extra large screen */
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
-}
-
-/* x-extra large screen */
-@media screen and (min-width: 1400px) {
 }
