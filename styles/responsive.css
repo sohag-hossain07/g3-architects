@@ -152,6 +152,10 @@
     margin-top: 100px;
   }
 
+  .features {
+    gap: 60px;
+  }
+
   /* favorite features section */
   .favorite-features {
     grid-template-columns: 1fr;
